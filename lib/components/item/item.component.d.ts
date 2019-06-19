@@ -27,7 +27,6 @@ export declare class ItemComponent implements OnInit {
     data: any;
     readonly hasHandle: boolean;
     readonly moveDisabled: boolean;
-    readonly styleString: string;
     readonly classString: string;
     readonly type: "string" | "number" | "boolean" | "symbol" | "undefined" | "object" | "function" | "array";
     constructor(container: ContainerComponent, draggableDirective: DraggableDirective);
