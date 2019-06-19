@@ -28,7 +28,7 @@ export declare class ItemComponent implements OnInit {
     readonly moveDisabled: boolean;
     droppableItemStyle: any;
     readonly classString: string;
-    readonly type: "string" | "number" | "bigint" | "boolean" | "symbol" | "undefined" | "object" | "function" | "array";
+    readonly type: "string" | "number" | "boolean" | "symbol" | "undefined" | "object" | "function" | "array";
     constructor(container: ContainerComponent, draggableDirective: DraggableDirective);
     ngOnInit(): void;
 }

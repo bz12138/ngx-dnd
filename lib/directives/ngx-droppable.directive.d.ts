@@ -13,7 +13,6 @@ export declare class DroppableDirective implements OnInit, OnDestroy, AfterViewI
     copy: boolean;
     removeOnSpill: boolean;
     ngxDroppable: string;
-    direction: 'vertical' | 'horizontal' | 'mixed';
     drop: EventEmitter<any>;
     drag: EventEmitter<any>;
     over: EventEmitter<any>;

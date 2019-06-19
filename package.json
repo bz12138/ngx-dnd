@@ -1,10 +1,12 @@
 {
   "name": "@swimlane/ngx-dnd",
   "description": "Drag and Drop for Angular2 and beyond!",
-  "version": "8.0.0",
+  "version": "5.1.0",
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0"
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0 || ^7.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0 || ^7.0.0",
+    "@swimlane/dragula": "^3.7.3",
+    "@types/dragula": "^2.1.33"
   },
   "repository": {
     "type": "git",
@@ -24,11 +26,6 @@
     "url": "https://github.com/swimlane/ngx-dnd/issues"
   },
   "homepage": "https://github.com/swimlane/ngx-dnd#readme",
-  "dependencies": {
-    "@swimlane/dragula": "^3.8.0",
-    "@types/dragula": "^2.1.34",
-    "tslib": "^1.9.0"
-  },
   "main": "bundles/swimlane-ngx-dnd.umd.js",
   "module": "fesm5/swimlane-ngx-dnd.js",
   "es2015": "fesm2015/swimlane-ngx-dnd.js",
@@ -38,5 +35,8 @@
   "fesm2015": "fesm2015/swimlane-ngx-dnd.js",
   "typings": "swimlane-ngx-dnd.d.ts",
   "metadata": "swimlane-ngx-dnd.metadata.json",
-  "sideEffects": false
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
 }
