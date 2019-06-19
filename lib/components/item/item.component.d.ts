@@ -15,6 +15,7 @@ export declare class ItemComponent implements OnInit {
     dropZone: any;
     dropZones: any;
     droppableItemClass: any;
+    droppableItemStyle: any;
     removeOnSpill: boolean;
     copy: boolean;
     _copy: boolean;
@@ -26,7 +27,7 @@ export declare class ItemComponent implements OnInit {
     data: any;
     readonly hasHandle: boolean;
     readonly moveDisabled: boolean;
-    droppableItemStyle: any;
+    readonly styleString: string;
     readonly classString: string;
     readonly type: "string" | "number" | "boolean" | "symbol" | "undefined" | "object" | "function" | "array";
     constructor(container: ContainerComponent, draggableDirective: DraggableDirective);
