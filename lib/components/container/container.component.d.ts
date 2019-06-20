@@ -13,7 +13,7 @@ export declare class ContainerComponent implements OnInit, AfterViewInit {
     dropZone: string;
     dropZones: string[];
     moves: (model: any, source: any, handle: any, sibling: any) => boolean;
-    readonly styleString: any;
+    styleString(item: any): any;
     template: TemplateRef<any>;
     droppable: any;
     drop: EventEmitter<any>;
